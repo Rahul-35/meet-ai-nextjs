@@ -182,7 +182,7 @@ return(
                                 </Alert>
                             )}
                             <Button disabled={pending} type="submit" className="w-full">
-                                Sign in
+                                Sign up
                             </Button>
                             <div className="after:border-border relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:items-center after:border-t">
                                 <span className="bg-card text-muted-foreground relative z-10 px-2">
@@ -211,13 +211,13 @@ return(
                             </div>
                             <div className="text-center text-sm">
                                 Already have an account? {" "} 
-                                <Link href="/sign-in" className="underline underline-ofset-4">Sign In</Link>
+                                <Link href="/sign-in" className="underline underline-ofset-4">Log In</Link>
                             </div>
                         </div>
                     </form>
                 </Form>
                 
-                <div className="bg-radial from-green-500 to-green-900 relative hidden md:flex flex-col gap-y-4  items-center justify-center">
+                <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col gap-y-4  items-center justify-center">
                     <img src="/logo.svg" className="h-[92px] w-[92px]" />
                     <p className="text-2xl font-semibold text-white">
                             Meet.AI
